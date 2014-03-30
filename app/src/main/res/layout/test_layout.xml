@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Очень важный вопрос по русскому языку: какие из данных слов относятся к математике с отвращением?\n\n1 - глупый ответ\n2 - с++\n3 - 16\n4 - подлежащие\n5 - соновый бор "
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="глупый ответ"
+        android:id="@+id/checkBox"
+        android:layout_gravity="left" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="с++"
+        android:id="@+id/checkBox2"
+        android:layout_gravity="left" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16"
+        android:id="@+id/checkBox3"
+        android:layout_gravity="left" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="подлежащее"
+        android:id="@+id/checkBox4"
+        android:layout_gravity="left" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="сосновый бор"
+        android:id="@+id/checkBox5"
+        android:layout_gravity="left" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ок"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
